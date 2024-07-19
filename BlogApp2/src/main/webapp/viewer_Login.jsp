@@ -12,7 +12,7 @@
     </header>
     <div class="container">
         <div class="login-container">
-            <h1>Welcome Back!</h1>
+            <h1>Viewer Login!</h1>
             <p class="message">Please login to access your account.</p>
             <p id="clientErrorMessage" class="message"></p>
             <c:if test="${not empty errorMessage}">
