@@ -1,4 +1,4 @@
----
+![Screenshot 2024-07-19 161611](https://github.com/user-attachments/assets/05ab2220-c029-4645-a28c-8a95d7f3f413)---
 
 BlogApp2
 
@@ -234,3 +234,45 @@ INSERT INTO blogs (title, content, image_path, created_by) VALUES
 Note: When inserting data into the `blogs` table, ensure that the `created_by` field corresponds to an existing `id` in the `users` table. Failure to do so will result in a foreign key constraint violation error.
 
 ---
+
+
+## ScreenShots
+
+Here these are some of the screenshots of the projects 
+
+## admin_Dashboard.jsp
+![Screenshot 2024-07-19 161732](https://github.com/user-attachments/assets/d703008f-83ff-4e72-ada0-b2595c765fe9)
+
+## admin_Login.jsp
+![Screenshot 2024-07-19 161653](https://github.com/user-attachments/assets/5bb595ab-a7a1-4ebb-9a37-6da2b2c9bc43)
+
+## admin_Register.jsp
+![Screenshot 2024-07-19 161706](https://github.com/user-attachments/assets/c8f07f2b-ac7d-4952-99c8-7a493f057db0)
+
+## create_Blog.jsp
+![Screenshot 2024-07-19 161746](https://github.com/user-attachments/assets/2fe8cec8-c679-4baa-b0ab-aeb0f1f6bbe1)
+
+## error.jsp
+![Screenshot 2024-07-19 162244](https://github.com/user-attachments/assets/e91faa76-db78-43af-8b43-72456a39f4bd)
+
+## index.jsp
+![Screenshot 2024-07-19 161611](https://github.com/user-attachments/assets/d35b1d86-369c-4c75-8b82-f71cebac32eb)
+
+## search_Blog.jsp
+![Screenshot 2024-07-19 162113](https://github.com/user-attachments/assets/00c43b32-e421-40fc-a54a-87173e804cfa)
+
+## update_Blog.jsp
+![Screenshot 2024-07-19 161803](https://github.com/user-attachments/assets/596cd2f8-30d3-41d1-841a-d62c17767fc0)
+
+## viewer_Dashboard.jsp
+![Screenshot 2024-07-19 162904](https://github.com/user-attachments/assets/d3f1b861-2331-4434-9f17-bcbd775c2cba)
+
+## viewer_Home.jsp
+![Screenshot 2024-07-19 161923](https://github.com/user-attachments/assets/a550ce46-326a-49b8-9757-716330708be8)
+
+## viewer_Login.jsp
+![Screenshot 2024-07-19 161841](https://github.com/user-attachments/assets/df878d7e-f819-4b1d-ae8b-56884be9a55e)
+
+## viewer_Register.jsp
+![Screenshot 2024-07-19 161854](https://github.com/user-attachments/assets/d5c1653d-d209-4ce5-b3aa-b34db022d18b)
+
