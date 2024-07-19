@@ -1,6 +1,4 @@
-![Screenshot 2024-07-19 161611](https://github.com/user-attachments/assets/05ab2220-c029-4645-a28c-8a95d7f3f413)---
-
-BlogApp2
+## BlogApp2
 
 ## Project Overview
 BlogApp2 is a Java-based web application designed for managing blog posts with user roles and authentication. The application supports two types of users: Admin and Viewer. Admins can create, update, and delete blog posts, while Viewers can browse and search for blog posts.
