@@ -108,60 +108,62 @@ MyBlogApp
 │
 ├── Java Resources
 │   ├── src/main/java
-│   │               ├── com.tap.admin
-│   │               │   ├── AdminDashboardServlet.java
-│   │               │   ├── AdminLoginServlet.java
-│   │               │   ├── AdminRegisterServlet.java
-│   │               ├── com.tap.blog
-│   │               │   ├── BlogsDisplay.java
-│   │               │   ├── BlogSearchServlet.java
-│   │               │   ├── CreateBlogServlet.java
-│   │               │   ├── DeleteBlogServlet.java
-│   │               │   ├── UpdateBlogServlet.java
-│   │               ├── com.tap.
-│   │               │   ├── connection.java
-│   │               ├── com.tap.DAO
-│   │               │   ├── BlogDaoImp.java
-│   │               │   ├── BlogDAOInterface.java
-│   │               │   ├── UserDaoImp.java
-│   │               │   ├── UserDAOInterface.java
-│   │               ├── com.tap.packages
-│   │               │   ├── Blog.java
-│   │               │   ├── User.java
-│   │               └── com.tap.viewer
-│   │                   ├── ViewerDashboardServlet.java
-│   │                   ├── ViewerLoginServlet.java
-│   │                   └── ViewerRegisterServlet.java
-|-src
-| └-main
-│   └── webapp
-│          ├── META-INF
-│          ├── uploads
-│          ├── WEB-INF
-│          │   ├── lib
-│          │   │   ├── jstl-1.2.jar
-│          │   │   ├── mysql-connector-j-8.3.0.jar
-│          │   │   └── standard.jar
-│          │   └── web.xml
-│          ├── admin_Dashboard.jsp
-│          ├── admin_Login.jsp
-│          ├── admin_Register.jsp
-│          ├── create_Blog.jsp
-│          ├── error.jsp
-│          ├── image.jpg
-│          ├── index.jsp
-│          ├── script.js
-│          ├── search_Blog.jsp
-│          ├── styles.css
-│          ├── update_Blog.jsp
-│          ├── viewer_Dashboard.jsp
-│          ├── viewer_Home.jsp
-│          ├── viewer_Login.jsp
-│          └── viewer_Register.jsp
-│   
+│   │   ├── com.tap.admin
+│   │   │   ├── AdminDashboardServlet.java
+│   │   │   ├── AdminLoginServlet.java
+│   │   │   ├── AdminRegisterServlet.java
+│   │   ├── com.tap.blog
+│   │   │   ├── BlogsDisplay.java
+│   │   │   ├── BlogSearchServlet.java
+│   │   │   ├── CreateBlogServlet.java
+│   │   │   ├── DeleteBlogServlet.java
+│   │   │   ├── UpdateBlogServlet.java
+│   │   ├── com.tap.connection
+│   │   │   ├── Connection.java
+│   │   ├── com.tap.DAO
+│   │   │   ├── BlogDaoImp.java
+│   │   │   ├── BlogDAOInterface.java
+│   │   │   ├── UserDaoImp.java
+│   │   │   ├── UserDAOInterface.java
+│   │   ├── com.tap.packages
+│   │   │   ├── Blog.java
+│   │   │   ├── User.java
+│   │   └── com.tap.viewer
+│   │       ├── ViewerDashboardServlet.java
+│   │       ├── ViewerLoginServlet.java
+│   │       └── ViewerRegisterServlet.java
+│
+├── src
+│   └── main
+│       └── webapp
+│           ├── META-INF
+│           ├── uploads
+│           ├── WEB-INF
+│           │   ├── lib
+│           │   │   ├── jstl-1.2.jar
+│           │   │   ├── mysql-connector-j-8.3.0.jar
+│           │   │   └── standard.jar
+│           │   └── web.xml
+│           ├── admin_Dashboard.jsp
+│           ├── admin_Login.jsp
+│           ├── admin_Register.jsp
+│           ├── create_Blog.jsp
+│           ├── error.jsp
+│           ├── image.jpg
+│           ├── index.jsp
+│           ├── script.js
+│           ├── search_Blog.jsp
+│           ├── styles.css
+│           ├── update_Blog.jsp
+│           ├── viewer_Dashboard.jsp
+│           ├── viewer_Home.jsp
+│           ├── viewer_Login.jsp
+│           └── viewer_Register.jsp
+│
 ├── target
 ├── pom.xml
 └── README.md
+
 
 ## CRUD Operations
 1. Create
