@@ -96,12 +96,6 @@ private String jdbcPassword = "yourpassword";
 2. Access the application in your web browser:
 http://localhost:8080/blog-app/
 
-To ensure that your project structure displays correctly as a code block in your README file, you need to use triple backticks (```) correctly and make sure there's no extra indentation or formatting errors. Here’s how you should structure it in your README file:
-
-```markdown
-## Project Structure
-
-```
 MyBlogApp
 │
 ├── Deployment Descriptor
@@ -166,8 +160,7 @@ MyBlogApp
 ├── target
 ├── pom.xml
 └── README.md
-```
-```
+
 
 Make sure you have the triple backticks before and after your block of text without any extra spaces or indentations. This will ensure the content is rendered as a preformatted text block, preserving the structure as intended.
 
