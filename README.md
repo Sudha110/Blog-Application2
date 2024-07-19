@@ -19,10 +19,10 @@ Prerequisites :
 Project Phases :
 
    Phase 1: User Registration and Login (Frontend & Backend)
-      1.1.User Registration Form: Captures user details (name, email, password) and role (Admin/Viewer).
-      1.2.Registration Logic: Validates user data, stores it securely in the MySQL database with hashed passwords, and assigns a role.
-      1.3.Login Page: Includes username/email and password fields.
-      1.4.Login Logic: Authenticates users against the database and establishes user sessions using cookies or sessions for role identification.
+      User Registration Form: Captures user details (name, email, password) and role (Admin/Viewer).
+      Registration Logic: Validates user data, stores it securely in the MySQL database with hashed passwords, and assigns a role.
+      Login Page: Includes username/email and password fields.
+      Login Logic: Authenticates users against the database and establishes user sessions using cookies or sessions for role identification.
 
    Phase 2: Admin Dashboard (Frontend & Backend)
       2.1.Admin Dashboard: Accessible only after successful login with the "Admin" role.
