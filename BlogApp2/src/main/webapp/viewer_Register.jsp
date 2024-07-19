@@ -13,7 +13,7 @@
         <a href="${pageContext.request.contextPath}/index.jsp" class="home-button">Home</a>
     </header>
     <div class="container">
-        <h2>User Registration</h2>
+        <h2>Viewer Registration</h2>
         <c:if test="${not empty error}">
             <p class="error">${error}</p>
         </c:if>
