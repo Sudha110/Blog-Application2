@@ -162,8 +162,6 @@ MyBlogApp
 └── README.md
 
 
-Make sure you have the triple backticks before and after your block of text without any extra spaces or indentations. This will ensure the content is rendered as a preformatted text block, preserving the structure as intended.
-
 ## CRUD Operations
 1. Create
    - Form: `create_Blog.jsp`
