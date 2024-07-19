@@ -180,9 +180,6 @@ MyBlogApp
    - Page: `admin_dashboard.jsp` (contains delete links)
    - Servlet: `DeleteBlogServlet.java`
 
-## Contact
-For any questions or support, please contact [gunisudharani492@example.com](mailto:gunisudharani492@example.com).
-
 ## Additional Information
 Note: Before uploading the file, make sure that the image file is already saved or placed in the `webapp/upload` folder. Otherwise, sometimes it will not display the images correctly.
 
@@ -274,3 +271,5 @@ Here are some screenshots of the project
 ## viewer_Register.jsp
 ![Screenshot 2024-07-19 161854](https://github.com/user-attachments/assets/d5c1653d-d209-4ce5-b3aa-b34db022d18b)
 
+## Contact
+For any questions or support, please contact [gunisudharani492@example.com](mailto:gunisudharani492@example.com).
