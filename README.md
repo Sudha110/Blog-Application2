@@ -16,32 +16,33 @@ Prerequisites :
    5.MySQL Database
    6.Maven
 
-Project Phases :
+## Project Phases
 
-   Phase 1: User Registration and Login (Frontend & Backend)
-      User Registration Form: Captures user details (name, email, password) and role (Admin/Viewer).
-      Registration Logic: Validates user data, stores it securely in the MySQL database with hashed passwords, and assigns a role.
-      Login Page: Includes username/email and password fields.
-      Login Logic: Authenticates users against the database and establishes user sessions using cookies or sessions for role identification.
+### Phase 1: User Registration and Login (Frontend & Backend)
+- **User Registration Form:** Captures user details (name, email, password) and role (Admin/Viewer).
+- **Registration Logic:** Validates user data, stores it securely in the MySQL database with hashed passwords, and assigns a role.
+- **Login Page:** Includes username/email and password fields.
+- **Login Logic:** Authenticates users against the database and establishes user sessions using cookies or sessions for role identification.
 
-   Phase 2: Admin Dashboard (Frontend & Backend)
-      2.1.Admin Dashboard: Accessible only after successful login with the "Admin" role.
-      2.2.Admin Functionalities:
-         2.2.1.Create new blog posts with title, content, and an option to upload images/videos.
-         2.2.2.Update existing blog posts (title, content, image/video).
-         2.2.3.Delete blog posts.
-      2.3.Servlets Implementation: Handles the functionalities and stores uploaded images/videos securely in the database. Ensures data validation and sanitization to 4.prevent security vulnerabilities.
+### Phase 2: Admin Dashboard (Frontend & Backend)
+1. **Admin Dashboard:** Accessible only after successful login with the "Admin" role.
+2. **Admin Functionalities:**
+   - Create new blog posts with title, content, and an option to upload images/videos.
+   - Update existing blog posts (title, content, image/video).
+   - Delete blog posts.
+3. **Servlets Implementation:** Handles the functionalities and stores uploaded images/videos securely in the database. Ensures data validation and sanitization to prevent security vulnerabilities.
 
-   Phase 3: User Interface for Viewers (Frontend)
-      1.User Interface: User-friendly interface for viewers to browse blog posts.
-      2.Viewer Functionalities:
-         2.1.Search blog posts by title or date.
-         2.2.Implement pagination and sorting for search results.
-         2.3.View individual blog posts in detail.
+### Phase 3: User Interface for Viewers (Frontend)
+1. **User Interface:** User-friendly interface for viewers to browse blog posts.
+2. **Viewer Functionalities:**
+   - Search blog posts by title or date.
+   - Implement pagination and sorting for search results.
+   - View individual blog posts in detail.
 
-   Phase 4: Security Enhancements (Backend)
-      1.Password Hashing: Secure password hashing and storage using algorithms like BCrypt.
-      2.Input Validation: Prevent SQL injection attacks using prepared statements.
+### Phase 4: Security Enhancements (Backend)
+1. **Password Hashing:** Secure password hashing and storage using algorithms like BCrypt.
+2. **Input Validation:** Prevent SQL injection attacks using prepared statements.
+
 
 Deliverables :
    1.Functional Java web application with JSP and Servlets.
