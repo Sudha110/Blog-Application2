@@ -236,7 +236,7 @@ Note: When inserting data into the `blogs` table, ensure that the `created_by` f
 
 ## ScreenShots
 
-Here these are some of the screenshots of the projects 
+Here are some screenshots of the project
 
 ## admin_Dashboard.jsp
 ![Screenshot 2024-07-19 161732](https://github.com/user-attachments/assets/d703008f-83ff-4e72-ada0-b2595c765fe9)
