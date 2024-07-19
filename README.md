@@ -96,6 +96,10 @@ private String jdbcPassword = "yourpassword";
 2. Access the application in your web browser:
 http://localhost:8080/blog-app/
 
+```markdown
+## Project Structure
+```
+```
 MyBlogApp
 │
 ├── Deployment Descriptor
@@ -160,7 +164,7 @@ MyBlogApp
 ├── target
 ├── pom.xml
 └── README.md
-
+```
 
 ## CRUD Operations
 1. Create
