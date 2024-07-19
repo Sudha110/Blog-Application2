@@ -94,7 +94,7 @@ private String jdbcPassword = "yourpassword";
 ## Running the Application
 1. Deploy the project to your Apache Tomcat server.
 2. Access the application in your web browser:
-http://localhost:8080/blog-app/
+http://localhost:8085/BlogApp2/
 
 ## Project Structure
 
